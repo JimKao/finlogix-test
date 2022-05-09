@@ -1,0 +1,249 @@
+
+.header-container{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+
+.logo-acy{
+    min-width: 150px;
+    width: 114px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-image: url('../img/acy-securities.png');
+}
+
+.header-container button {
+    width: 115px;
+    height: 40px;
+}
+
+.auth-btn {
+    background: #FFFFFF;
+    color: #013B81;
+    border: 1px solid #013B81;
+    border-radius: 2px;
+}
+
+.webinar-btn {
+    color: #FFFFFF;
+    background: #013B81;
+    border-radius: 2px;
+    margin-right: 1vw;
+}
+
+.topic-desc-container {
+    /* height: 70vh; */
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.topic-title {
+    font-weight: 500;
+    font-size: 250%;
+    line-height: 40px;
+    text-align: center;
+    color: #01254F;
+    margin: 3%;
+    margin-top: 40vh;
+}
+
+.topic-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180%;
+    line-height: 10vh;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo-acy,
+.header-btn-container {
+    vertical-align: middle;
+    margin: 1%;
+}
+
+
+.login-form-col{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.login-form input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form-msg {
+    color: #FF3A3A;
+}
+  
+.login-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.login-form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.webinar-ticket-container {
+    margin: 5%;
+}
+
+.webinar-ticket-row-container {
+    display: flex;
+}
+
+
+.webinar-card-container {
+    flex: 30%;
+    padding: 1%;
+    margin: 1%;
+    background-color: #cccccc;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-shadow: 1px 2px 6px rgba(219, 219, 219, 0.5);
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.webinar-card-container div {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.webinar-card-title,
+.webinar-card-content,
+.webinar-card-course-date {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.webinar-card-create-date,
+.webinar-card-title {
+    color: #01254F;
+}
+
+.webinar-card-content,
+.webinar-card-course-date {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.webinar-card-register-container {
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+.webinar-card-register-container div {
+    display: inline;
+    color: #6BB718;
+}
+
+.reg-sign {
+    width: 24px;
+    height: 24px;
+    line-height: 500px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #6BB718;
+    float: right;
+}
+
+.form-reg-container {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0px 4px 14px rgb(132 132 132 / 50%);
+    border-radius: 20px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 24%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-bottom: 5vh;
+}
+
+.form-reg-col {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-reg-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+    text-align: center;
+
+    color: #01254F;
+}
+
+.form-reg-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    margin: 3%;
+}
+
+.form-reg-err-msg {
+    color: #FF3A3A;
+    font-size: 12px;
+}
+
+.disable-btn {
+    background-color: #E9E9E9!important;
+    color: #FFFFFF!important;
+}
+
+.form-reg-submit  {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 15vh;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-reg-result-msg {
+    color: #FF3A3A;
+    text-align: center;
+}

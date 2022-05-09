@@ -1,0 +1,51 @@
+
+.header-container{
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.acy-logo {
+    /* margin: 1%; */
+    float: left;
+    width: 114px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-image: url('../img/acy-securities.png');
+}
+
+.header-container button {
+    width: 115px;
+    height: 40px;
+}
+
+.auth-btn {
+    background: #FFFFFF;
+    color: #013B81;
+    border: 1px solid #013B81;
+    border-radius: 2px;
+}
+
+.header-btn-container {
+    float: right;
+    /* margin: 1%; */
+}
+
+
+.webinar-btn {
+    /* margin-right: 1%; */
+    color: #FFFFFF;
+    background: #013B81;
+    border-radius: 2px;
+}
+
+.header-container div,
+.header-container button{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.topic-desc-container {
+    text-align: center;
+}
